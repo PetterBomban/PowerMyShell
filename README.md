@@ -1,3 +1,3 @@
 # PowerMyShell
 
-[PowerMyShell.com](http://PowerMyShell.com)
+[PowerMyShell.com](http://blog.powermyshell.com/)
