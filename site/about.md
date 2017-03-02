@@ -4,7 +4,4 @@ title: About
 permalink: /about/
 ---
 
-W.I.P. PowerShell blog.
-
-[bomban.no](https://bomban.no)
-
+This is my ([Petter Bomban](https://bomban.no)) personal blog.
