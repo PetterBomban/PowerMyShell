@@ -3,6 +3,8 @@ layout: post
 title: "Basic Windows Systems Administration Part 1"
 ---
 
+![Hyper-V Manager](https://raw.githubusercontent.com/PetterBomban/PowerMyShell/master/img/Hyper-V_Manager.png){:class="img-responsive"}
+
 This guide won't provide any in-depth tutorials for how to do things. Instead, it will provide you with a list of essentials to point you in the right direction. 
 
 I recommend using Windows Server 2016, but you can follow everything with Server 2012 R2 as well.
