@@ -41,7 +41,7 @@ In this part, I'll list a couple of servers for you to set up.
 ## Step 3 - Tasks
 
 ### Domain controllers
-
+---
 * Set up replication between the two DC's. 
 * Configure DNS with the primary DC as the primary DNS-server. Set up sync between these.
 * Create an AD-structure.
@@ -54,6 +54,7 @@ In this part, I'll list a couple of servers for you to set up.
 * Set up a GPO that deploys an application (PuTTY, Adobe Reader etc.)
 
 ### File Server
+---
 * Set up a backup-share (For Veeam)
 * Set up a public share for all users
 * Set up a share for homefolders
@@ -63,6 +64,7 @@ In this part, I'll list a couple of servers for you to set up.
 * Check out PowerShell scripts for monitoring shares for crypto-viruses
 
 ### Veeam (Backup server)
+---
 * Install Veeam B&R free edition
 * Try to back up one of your clients, and then restore from backup
 
@@ -84,6 +86,7 @@ Start-VeeamZip @Params
 {% endhighlight %}
 
 ### DHCP
+---
 * Set up a DHCP scope that configures IPv4 for clients
 * Exclude for example 20 IP-addresses from the pool for your servers
 
@@ -91,6 +94,7 @@ Start-VeeamZip @Params
 * Can you do this in PowerShell?
 
 ### Deployment
+---
 Here I gave you two choices, depending on how advanced you want to get. I wholeheartedly recommend MDT, as this will save you a lot of time with deployments (but the learning curve is a bit higher compared to just WDS.)
 
 * [WDS Guide](http://protechgurus.com/install-configure-wds-windows-server-2016/)
